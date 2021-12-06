@@ -3,6 +3,7 @@
 
 # Ansible and MikroTik
 :raised_hand: Hi guys!    
+I have MikroTik model RB1100x4 :pager:
 I want to learn how to manage MikroTik through Ansible :mechanical_arm::wrench:.    
 Everything will go according to plan, I will come up with and add new tasks
 ## :clipboard:Task
