@@ -6,6 +6,8 @@
 I have MikroTik model RB1100x4 :pager:    
 I want to learn how to manage MikroTik through Ansible :mechanical_arm::wrench:.    
 Everything will go according to plan, I will come up with and add new tasks
+### Installing Ansible
+Шnstructions for installing the Ansible on different operating systems can be found [here](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
 ## :clipboard:Task
 :white_check_mark: Edit file hosts;    
 :white_large_square: Test connect to Mikrotik;    
