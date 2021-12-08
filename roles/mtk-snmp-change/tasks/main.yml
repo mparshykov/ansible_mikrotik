@@ -1,0 +1,20 @@
+---
+# tasks file for SNMP
+    - name: Check SNMP community
+      routeros_command:
+        commands:
+           - snmp community print
+      register: output
+    - name: Check if an update is needed
+      routeros_command:
+        commands:
+          - "[:put ([snmp community print value-list])]"
+      register: output
+    - name: print variable
+      debug:
+        msg: "{{ output }}"
+    - name: Run change SNMP
+      routeros_command:
+        commands:
+           - /snmp community set  [ find default=yes ] name=fdsdasfsadfasfd
+      when: output.stdout is search('1271924982174982141')
